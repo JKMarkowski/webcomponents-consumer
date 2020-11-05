@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'webcomponents-consumer';
+
+  webComponentHandleEvent(event: string): void {
+    console.log(event);
+  }
+
+  fdValueHandleEvent(event: string): void {
+    console.log(event);
+  }
 }

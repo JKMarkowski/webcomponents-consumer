@@ -13,3 +13,20 @@
 <button fd-button label="attention" fdType="attention"></button>
 <button fd-button label="transparent" fdType="transparent"></button>
 <button fd-button label="Emphasized" fdType="emphasized"></button>
+
+<h2>Select - WebComponent</h2>
+<component-select (valueChanged)="webComponentHandleEvent($event)">
+  <component-option value="option1">Option 1</component-option>
+  <component-option value="option2">Option 2</component-option>
+  <component-option value="option3">Option 3</component-option>
+  <component-option value="option4">Option 4</component-option>
+</component-select>
+
+
+<h2>Select - Fundamentals</h2>
+<fd-select (valueChange)="fdValueHandleEvent($event)">
+  <fd-option value="option1">Option 1</fd-option>
+  <fd-option value="option2">Option 2</fd-option>
+  <fd-option value="option3">Option 3</fd-option>
+  <fd-option value="option4">Option 4</fd-option>
+</fd-select>

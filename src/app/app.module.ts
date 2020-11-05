@@ -4,7 +4,7 @@ import {CUSTOM_ELEMENTS_SCHEMA, NgModule} from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {ReactiveFormsModule} from "@angular/forms";
-import {ButtonModule} from "@fundamental-ngx/core";
+import {ButtonModule, PopoverModule, SelectModule} from "@fundamental-ngx/core";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -16,7 +16,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
     ReactiveFormsModule,
     ButtonModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    PopoverModule,
+    SelectModule
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
